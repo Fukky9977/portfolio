@@ -1,0 +1,130 @@
+.header {
+	background-color: #01074A;
+	color: #faa505;
+	margin-top: 20px;
+	padding-top: 8px;
+	height: 70px;
+}
+
+.header h1 {
+	border-bottom: 2px solid #faa505; 
+}
+
+.header-img img{
+	width: 100%
+}
+
+.nav-link {
+	color: #01074A;
+	font-size: 20px;
+	text-shadow: -2px 1px 3px gray;
+}
+
+.nav-link:hover {
+	color: #faa505;
+	transition: 0.5s;
+	text-shadow: 0 0 0 ;
+}
+
+.about-container,.skill-container, .works-container {
+	background-color: #E0DEDA;
+}
+
+.about, .skill, .contact, .works {
+	background-color: #01074A;
+	color: #faa505;
+}
+
+.about h1 {
+	margin-top: 5px;
+}
+
+.about-img img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+
+
+.name {
+	font-size: 24px;
+	font-weight: 500;
+	margin-top: 40px;
+}
+
+
+.s-box {
+}
+
+.box {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #01074A;
+}
+
+
+.fab {
+	color: #faa505;
+}
+
+.test img{
+	width: 300px;
+	height: 200px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px black;
+}
+
+.test img:hover {
+	transition: 0.5s;
+	box-shadow: 0 0 0 ;
+}
+
+.form-group {
+	margin-top: 10px;
+}
+
+.form-control {
+	width: 50%;
+	margin: 10px auto;
+}
+
+label {
+	color: #01074A;
+}
+
+.btn-orengi {
+	margin: 10px 0;
+	background-color: #faa505;
+	color: #01074A;
+	width: 15%;
+	position: relative;
+  	-webkit-transition: none;
+  	transition: none;
+  	box-shadow: 0 3px 0 #01074A;
+  	text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+}
+
+.btn-orengi:hover {
+	transition: 0.5s;
+	top: -2px;
+  	box-shadow: 0 5px 0 #01074A;
+}
+
+.btn-orengi:active {
+  top: 3px;
+  box-shadow: none;
+}
+
+
+
+.footer {
+	margin-top: 15px;
+	padding-top: 8px;
+	background-color: #01074A;
+	color: #faa505;
+}
