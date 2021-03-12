@@ -1,4 +1,8 @@
 @media (max-width: 575.98px) {
+	
+	.header h1 {
+	  margin-top: 5px;	
+	}
 
 	/*　ハンバーガーボタン　*/
 	.hamburger {
@@ -6,7 +10,7 @@
 	  position: fixed;
 	  z-index : 3;
 	  right : 13px;
-	  top   : 20px;
+	  top   : 28px;
 	  width : 42px;
 	  height: 42px;
 	  cursor: pointer;
